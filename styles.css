@@ -1,0 +1,488 @@
+html{
+    font-size: 66.6%;
+}
+/*Seccion relacionada al Header*/
+
+#FlexContainerNav{
+    position: fixed;
+    height: 7.5vh;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-sizing: border-box;
+}
+
+#FlexContainerMenu{
+    list-style: none;
+    width: 30%;
+    height: 50%;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-right: 5%;
+}
+
+h1{
+    color: white;
+    font-size: 1.5vw;
+}
+
+li a{
+    color: white;
+    font-size: 1vw;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li a:hover{
+    font-size: 1vw;
+    text-decoration: underline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav .fa{
+    color: white;
+    font-size: 4vw !important;
+}
+
+
+/*Seccion Relacionada al Main*/
+
+#GridContainerMain{
+    background: white;
+    width: 100%;
+    height: 100%;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: repeat(3,26.6%);
+    column-gap: 3.3%;
+    row-gap: 3.3%;
+}
+
+#GridItem1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    width: 90%;
+    height: 90%;
+    padding: 10%;
+}
+
+#GridItem2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 90%;
+    height: 90%;
+    padding: 10%;
+}
+
+#GridItem3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 90%;
+    height: 90%;
+    padding: 10%;
+}
+
+#GridItem4{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 90%;
+    height: 90%;
+    padding: 10%;
+}
+
+#GridItem5{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 90%;
+    height: 90%;
+    padding: 10%;
+}
+
+#GridItem6{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    width: 90%;
+    height: 90%;
+    padding: 10%;
+}
+
+#GridItem7{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 90%;
+    height: 90%;
+    padding: 10%;
+}
+
+#GridItem8{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 90%;
+    height: 90%;
+    padding: 10%;
+}
+
+#GridItem9{
+    grid-column: 3/4;
+    grid-row: 3/4;
+    width: 90%;
+    height: 90%;
+    padding: 10%;
+}
+/*imagenes de ropa y transformaciones*/
+
+#ClothesImage1{
+    width: 100%;
+    height: 70%;
+}
+
+#ClothesImage1:hover{
+    content: url(https://picsum.photos/id/1013/300/300);
+}
+
+#ClothesImage2{
+    width: 100%;
+    height: 70%;
+}
+
+#ClothesImage2:hover{
+    content: url(https://picsum.photos/id/1014/300/300);
+}
+
+#ClothesImage3{
+    width: 100%;
+    height: 70%;
+}
+
+#ClothesImage3:hover{
+    content: url(https://picsum.photos/id/1015/300/300);
+}
+
+#ClothesImage4{
+    width: 100%;
+    height: 70%;
+}
+
+#ClothesImage4:hover{
+    content: url(https://picsum.photos/id/1016/300/300);
+}
+
+#ClothesImage5{
+    width: 100%;
+    height: 70%;
+}
+
+#ClothesImage5:hover{
+    content: url(https://picsum.photos/id/1022/300/300);
+}
+
+#ClothesImage6{
+    width: 100%;
+    height: 70%;
+}
+
+#ClothesImage6:hover{
+    content: url(https://picsum.photos/id/1018/300/300);
+}
+
+#ClothesImage7{
+    width: 100%;
+    height: 70%;
+}
+
+#ClothesImage7:hover{
+    content: url(https://picsum.photos/id/1019/300/300);
+}
+
+#ClothesImage8{
+    width: 100%;
+    height: 70%;
+}
+
+#ClothesImage8:hover{
+    content: url(https://picsum.photos/id/1020/300/300);
+}
+
+#ClothesImage9{
+    width: 100%;
+    height: 70%;
+}
+
+#ClothesImage9:hover{
+    content: url(https://picsum.photos/id/1021/300/300);
+}
+
+.FlexContainerTextBox{
+    background: white;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.FlexItemText1{
+       align-self: flex-start;
+       font-size: 2vw;
+       font-family: 'Times New Roman', Times, serif;
+}
+
+.FlexItemText2{
+       align-self: flex-end;
+       font-size: 1vw;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p .fa{
+    color: black; 
+}
+
+body{
+    margin: 0;
+}
+
+/*Seccion Relacionada al Footer*/
+
+#FlexContainerFooter{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    background: black;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 5%;
+    padding-top: 2.5vh;
+}
+
+#FlexContainerFooter img{
+    height: 7.5vh;
+    width: 25vh;
+}
+
+#FlexContainerFooter .fa{
+    color: white;
+    font-size: 3vw !important;
+}
+
+/* Aca comienza el main de AboutUS*/
+
+@media screen and (max-width: 640px){
+
+    #FlexContainerAbout{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 700px;
+        box-sizing: border-box;
+        padding-top: 7.5vh;
+        border: 4px solid black;
+        font-size: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #FlexItemAboutText{
+        text-align: justify;
+        padding-right: 5%;
+        font-size: 9px;
+        width: 300px;
+        height: 200px;
+    }
+    #FlexItemAboutPhoto{
+        width: 100px;
+        height: 200px;
+        padding-right: 5%;
+        font-style: italic;
+    }
+    
+    #FlexItemAboutPhoto img{
+        width: 100%;
+        height: 70%;
+    }
+    
+}
+
+@media screen and (min-width: 640px) and (max-width: 1024px){
+
+    #FlexContainerAbout{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 900px;
+        box-sizing: border-box;
+        padding-top: 7.5vh;
+        border: 4px solid black;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #FlexItemAboutText{
+        padding-right: 5%;
+        padding-top: 150px;
+        text-align: justify;
+        font-size: 15px;
+        width: 400px;
+        height: 600px;
+    }
+    #FlexItemAboutPhoto{
+        width: 250px;
+        height: 500px;
+        padding: 5%;
+        font-style: italic;
+    }
+    
+    #FlexItemAboutPhoto img{
+        width: 100%;
+        height: 70%;
+    }
+    
+}
+
+@media screen and (min-width: 1024px){
+
+    #FlexContainerAbout{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        box-sizing: border-box;
+        padding-top: 7.5vh;
+        border: 4px solid black;
+        font-size: 1vw;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #FlexItemAboutText{
+        padding: 5%;
+        text-align: justify;
+        font-size: 1.5vw;
+        width: 1024px;
+        height: 90%;
+    }
+    #FlexItemAboutPhoto{
+        width: 25%;
+        height: 70%;
+        padding: 5%;
+        font-style: italic;
+    }
+    
+    #FlexItemAboutPhoto img{
+        width: 100%;
+        height: 70%;
+    }
+    
+}
+
+/*Aca comienza el main de ContactUs*/
+
+#FlexContainerContact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    width: 100%;
+    height: 80vh;
+    box-sizing: border-box;
+    padding-top: 7.5vh;
+    font-size: 1vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#FlexItemTextContact{
+    background: white;
+    width: 50%;
+    height: 80%;
+    box-sizing: border-box;
+    border: 4px solid black;
+}
+
+#FlexContainerForm{
+    background: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 80%;
+    box-sizing: border-box;
+    border: 4px solid black;
+}
+
+#FlexItemName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+#FlexItemMail{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+#FlexItemAdress{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+#FlexItemAge{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+#FlexItemContent{
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+input{
+    width: 40%;
+    font-size: 1vw;
+}
+
+select{
+    width: 30%;
+    font-size: 1vw;
+}
+
+textarea{
+    width: 70%;
+    font-size: 1vw;
+}
+
+#FlexItemMap{
+    display: flex;
+    align-items: center;
+    background: black;
+    height: 20%;
+    width: 100%;
+}
+
+#FlexItemMap iframe{
+    width: 100vw !important;
+    height: 10vh !important;
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collection</title>
+    <script src="https://use.fontawesome.com/a4a54d9579.js"></script>
+    <link rel="StyleSheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <header>
+            <nav id="FlexContainerNav">
+                <i class="fa fa-picture-o fa-5x" aria-hidden="true"></i>
+                <h1>Tienda Online Tu ropa</h1>
+                <ul id="FlexContainerMenu">
+                    <li> <a href="index.html">Collection</a></li>
+                    <li><a href="AboutUs.html">About Us</a></li>
+                    <li><a href="ContactUs.html">Contact Us</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+
+        <div id="FlexContainerContact">
+            <div id="FlexItemTextContact">
+Aca se supone que vaya un parrafo que contenga un Encontranos en---- Direccion Horarios y mail de contacto
+            </div>
+            <form action="https://formspree.io/f/mlezavzv" method="post" id="FlexContainerForm">
+              <div id="FlexItemName">
+                <label>Nombre:</label>
+                <input type="text" name="Nombre" placeholder="Ingrese su Nombre" required>
+                <label>Apellido</label>
+                <input type="text" name="Apellido" placeholder="Ingrese su Apellido">
+             </div>
+             <div id="FlexItemMail">
+               <label>Direccion de Mail:</label>
+               <input type="mail" id="Email" name="Mail" placeholder="Ingrese su direccion de mail" required>
+               <span id="EmailOK"></span>
+             </div>
+             <div id="FlexItemAdress">
+               <label> Ingrese su domicilio actual:</label>
+               <input type="text" name="Domicilio" placeholder="Ingrese su domicilio">
+               <label> Selecione Provincia:</label>
+               <Select name="Provincia">
+                 <option value="CABA" selected> CABA</option>
+                 <option value="Buenos Aires">Buenos Aires</option>
+                 <option value="Cordoba">Cordoba</option>
+                 <option value="Santa Fe">Santa Fe</option>
+                 <option value="Formosa"> Formosa</option>
+                 <option value="Otra">Ninguna de las anteriores</option>
+                </select>
+             </div>
+              <div id="FlexItemAge">
+                <p>Rango de edad:</p>
+                <input type="radio" name="edad" value="10-20">
+                <label for "10-20"> 10-20</label>
+                <input type="radio" name="edad" value="20-30" checked>
+                <label for "20-30"> 20-30</label>
+                <input type="radio" name="edad" value="30-40">
+                <label for "30-40"> 30-40</label>
+                <input type="radio" name="edad" value="40-50">
+                <label for "40-50"> 40-50</label>
+                <input type="radio" name="edad" value="50-60">
+                <label for "50-60"> 50-60</label>
+                <input type="radio" name="edad" value="60+">
+                <label for "60+">60+</label>
+              </div>
+              <div id="FlexItemContent">
+                <P>Escriba su consulta:</P>
+                <textarea name="Consulta" rows="5" cols="50" required></textarea>
+              </div>
+              <input type="reset">
+              <input type="submit">
+            </form>
+            <div id="FlexItemMap">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.233267593611!2d-58.37144098606862!3d-34.598262463375264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a335ad0fdd5135%3A0xbce6b77797619d80!2sTerminal%20de%20puerto%20madero!5e0!3m2!1ses-419!2sar!4v1652894165584!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+
+    </main>
+
+    <footer>
+
+        <Div  id="FlexContainerFooter">
+            <img src="ImagenesAUsar/MediosDePago.jpg" alt="Medios de Pago">
+            <a href="https://www.facebook.com/"><i class="fa fa-facebook fa-5x" aria-hidden="true"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i></a>
+            <a href="https://ar.pinterest.com/"><i class="fa fa-pinterest fa-5x" aria-hidden="true"></i></a>
+        </Div>
+        
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
