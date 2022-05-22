@@ -28,18 +28,19 @@ html{
 
 h1{
     color: white;
-    font-size: 1.5vw;
+    align-self: center;
+    font-size: 3vw;
 }
 
 li a{
     color: white;
-    font-size: 1vw;
+    font-size: 1.5vw;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 li a:hover{
-    font-size: 1vw;
+    font-size: 1.5vw;
     text-decoration: underline;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
@@ -141,83 +142,83 @@ nav .fa{
 
 #ClothesImage1{
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 
 #ClothesImage1:hover{
-    content: url(https://picsum.photos/id/1013/300/300);
+    content: url(ImagenesAUsar/GreyHoodie2.jpg);
 }
 
 #ClothesImage2{
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 
 #ClothesImage2:hover{
-    content: url(https://picsum.photos/id/1014/300/300);
+    content: url(ImagenesAUsar/WhiteShirt2.jpg);
 }
 
 #ClothesImage3{
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 
 #ClothesImage3:hover{
-    content: url(https://picsum.photos/id/1015/300/300);
+    content: url(ImagenesAUsar/GreyShirt2.jpg);
 }
 
 #ClothesImage4{
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 
 #ClothesImage4:hover{
-    content: url(https://picsum.photos/id/1016/300/300);
+    content: url(ImagenesAUsar/Blazer2.jpg);
 }
 
 #ClothesImage5{
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 
 #ClothesImage5:hover{
-    content: url(https://picsum.photos/id/1022/300/300);
+    content: url(ImagenesAUsar/Top2.jpg);
 }
 
 #ClothesImage6{
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 
 #ClothesImage6:hover{
-    content: url(https://picsum.photos/id/1018/300/300);
+    content: url(ImagenesAUsar/SweaterCombo2.jpg);
 }
 
 #ClothesImage7{
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 
 #ClothesImage7:hover{
-    content: url(https://picsum.photos/id/1019/300/300);
+    content: url(ImagenesAUsar/PinsandDeco2.jpg);
 }
 
 #ClothesImage8{
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 
 #ClothesImage8:hover{
-    content: url(https://picsum.photos/id/1020/300/300);
+    content: url(ImagenesAUsar/LGBT+socks2.jpg);
 }
 
 #ClothesImage9{
     width: 100%;
-    height: 70%;
+    height: 80%;
 }
 
 #ClothesImage9:hover{
-    content: url(https://picsum.photos/id/1021/300/300);
+    content: url(ImagenesAUsar/BathKit2.jpg);
 }
 
 .FlexContainerTextBox{
@@ -304,6 +305,7 @@ body{
         width: 100px;
         height: 200px;
         padding-right: 5%;
+        padding-top: 5%;
         font-style: italic;
     }
     
@@ -331,16 +333,18 @@ body{
     }
     #FlexItemAboutText{
         padding-right: 5%;
-        padding-top: 150px;
         text-align: justify;
+        padding: 5%;
         font-size: 15px;
-        width: 400px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
     }
     #FlexItemAboutPhoto{
         width: 250px;
         height: 500px;
-        padding: 5%;
+        flex-shrink: 0;
+        padding-right: 5%;
+        padding-top: 5%;
         font-style: italic;
     }
     
@@ -399,16 +403,21 @@ body{
     height: 80vh;
     box-sizing: border-box;
     padding-top: 7.5vh;
-    font-size: 1vw;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 #FlexItemTextContact{
     background: white;
+    text-align: center;
+    font-size: 80%;
     width: 50%;
-    height: 80%;
+    height: 60%;
     box-sizing: border-box;
     border: 4px solid black;
+}
+
+#FlexItemTextContact p{
+    transform: translateY(2.5vh);
 }
 
 #FlexContainerForm{
@@ -417,7 +426,8 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     width: 50%;
-    height: 80%;
+    height: 60%;
+    font-size: 70%;
     box-sizing: border-box;
     border: 4px solid black;
 }
@@ -453,6 +463,10 @@ body{
     height: 10%;
 }
 
+#FlexItemAge input{
+    min-width: 2px !important;
+}
+
 #FlexItemContent{
     display: flex;
     width: 100%;
@@ -476,13 +490,10 @@ textarea{
 
 #FlexItemMap{
     display: flex;
-    align-items: center;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 10%;
     background: black;
-    height: 20%;
+    height: 300px;
     width: 100%;
-}
-
-#FlexItemMap iframe{
-    width: 100vw !important;
-    height: 10vh !important;
 }
