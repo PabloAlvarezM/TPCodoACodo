@@ -258,8 +258,6 @@ body{
 #FlexContainerFooter{
     height: 10vh;
     width: 100%;
-   position: absolute;
-   bottom: 0;
     display: flex;
     background: black;
     box-sizing: border-box;
